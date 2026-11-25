@@ -15,3 +15,5 @@
 先发10行脱敏样例并说明月份、总行数、互转和退款口径。核实可处理后确认范围、交期和报价，再下单。超范围另行报价。请删除姓名、卡号、账号、手机号等个人信息。
 
 可在本仓库创建Issue描述范围和需求，**请勿上传真实流水或任何个人数据**。后续文件和付款通过双方确认的正式渠道办理。
+
+[填写整理需求表](https://github.com/JKY195330/simple-cashflow-template/issues/new?template=service-request.yml)
