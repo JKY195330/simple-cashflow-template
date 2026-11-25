@@ -1,0 +1,42 @@
+name: 收支表格整理咨询
+description: 39元服务适合一个月200行以内电子流水，先确认需求再接单。
+title: "[咨询] 收支整理需求"
+body:
+  - type: markdown
+    attributes:
+      value: "此处内容公开可见。仅描述任务，勿提交真实流水、姓名、手机号、账号或其他个人信息。文件和付款另在双方确认的正式渠道办理。"
+  - type: input
+    id: scope
+    attributes:
+      label: 月份范围与总行数
+      placeholder: 一个自然月，约150行
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: 当前文件格式
+      options:
+        - Excel
+        - CSV
+        - 其他，需先评估
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: 希望得到的结果
+      placeholder: 分类汇总、去重核查、月度收支，及互转和退款怎么统计
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: 希望交付日期
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: 预算（人民币元）
+      placeholder: "39"
